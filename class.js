@@ -249,7 +249,7 @@ class Predator {
         let emptyCell = random(this.chooseCell(0))
 
         if (emptyCell) {
-this.multiply++
+            this.multiply++
             let x = emptyCell[0];
             let y = emptyCell[1];
 
@@ -266,7 +266,7 @@ this.multiply++
     eat() {
         let food = random(this.chooseCell(2)); //[8,6]
 
-        if (food && this.multiply >12) {
+        if (food && this.multiply > 12) {
             let x = food[0];
             let y = food[1];
 
